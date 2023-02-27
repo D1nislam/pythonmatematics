@@ -1,0 +1,12 @@
+a = int(input("a = \t"))
+b = int(input("b = \t"))
+print(f'a+b = {a} + {b} = {a + b}')
+print(f'a-b = {a} - {b} = {a-b}')
+print(f'(a-b) * (a+b) = {a^2} - {b^2}')
+print(f'(a^2-2ab+b^2) = {a**2-2*a*b+b**2} ')
+print(f'(a^2+2ab+b^2) = {a**2+2*a*b+b**2}')
+print(f'(a^3-3a^2b+3ab^2-b^2) = {a**3-3*a**2*b+3*a*b**2-b**2}')
+print(f'(a^3+3a^2b+3ab^2-b^2) = {a**3+3*a**2*b+3*a*b**2-b**2}')
+print(f'(a+b)(a^2-ab+b^2) = {(a+b)*(a**2-a*b+b**2)}')
+print(f'(a-b)(a^2+ab+b^2) = {(a-b)*(a**2+a*b+b**2)}')
+
